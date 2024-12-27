@@ -1,4 +1,4 @@
-local servers = { "lua_ls", "jdtls", "clangd", "rust_analyzer" }
+local servers = { "html", "lua_ls", "jdtls", "clangd", "rust_analyzer", "pylsp" }
 
 require("mason").setup()
 require("mason-lspconfig").setup({
@@ -30,4 +30,6 @@ lspconfig["clangd"].setup(vim.tbl_deep_extend("force", std, {
 lspconfig["lua_ls"].setup(std)
 lspconfig["rust_analyzer"].setup(std)
 lspconfig["jdtls"].setup(std)
+lspconfig["pylsp"].setup(std)
+lspconfig["html"].setup(std)
 

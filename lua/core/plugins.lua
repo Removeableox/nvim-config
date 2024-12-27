@@ -13,7 +13,8 @@ local packer_bootstrap = ensure_packer()
 
 return require("packer").startup(function(use)
   use "wbthomason/packer.nvim"
-  use "LunarVim/darkplus.nvim"
+  use { "catppuccin/nvim", as = "catppuccin" }
+  use "psliwka/termcolors.nvim"
   use "nvim-tree/nvim-tree.lua"
   use "nvim-tree/nvim-web-devicons"
   use "nvim-lualine/lualine.nvim"
@@ -23,12 +24,20 @@ return require("packer").startup(function(use)
     tag = "0.1.0",
     requires = { {"nvim-lua/plenary.nvim"} }
   }
-  use "m4xshen/autoclose.nvim"
+
+  -- autoclosing
+  use {
+    "m4xshen/autoclose.nvim",
+    "windwp/nvim-ts-autotag"
+  }
+
+  -- lsp
   use {
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
   }
+
   -- Completion
   use "hrsh7th/nvim-cmp"
   use "hrsh7th/cmp-nvim-lsp"

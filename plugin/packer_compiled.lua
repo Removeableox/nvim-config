@@ -84,15 +84,15 @@ _G.packer_plugins = {
     path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
     url = "https://github.com/m4xshen/autoclose.nvim"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
-  },
-  ["darkplus.nvim"] = {
-    loaded = true,
-    path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
-    url = "https://github.com/LunarVim/darkplus.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -148,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["termcolors.nvim"] = {
+    loaded = true,
+    path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/termcolors.nvim",
+    url = "https://github.com/psliwka/termcolors.nvim"
   }
 }
 
