@@ -13,7 +13,7 @@ local packer_bootstrap = ensure_packer()
 
 return require("packer").startup(function(use)
   use "wbthomason/packer.nvim"
-  use { "catppuccin/nvim", as = "catppuccin" }
+  use "lunarvim/darkplus.nvim"
   use "psliwka/termcolors.nvim"
   use "nvim-tree/nvim-tree.lua"
   use "nvim-tree/nvim-web-devicons"

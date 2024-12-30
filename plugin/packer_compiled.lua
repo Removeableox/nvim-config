@@ -84,15 +84,15 @@ _G.packer_plugins = {
     path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
     url = "https://github.com/m4xshen/autoclose.nvim"
   },
-  catppuccin = {
-    loaded = true,
-    path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["darkplus.nvim"] = {
+    loaded = true,
+    path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
+    url = "https://github.com/lunarvim/darkplus.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
