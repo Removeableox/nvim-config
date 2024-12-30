@@ -89,10 +89,10 @@ _G.packer_plugins = {
     path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["darkplus.nvim"] = {
+  ["kanagawa.nvim"] = {
     loaded = true,
-    path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
-    url = "https://github.com/lunarvim/darkplus.nvim"
+    path = "/Users/calebcosta/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
